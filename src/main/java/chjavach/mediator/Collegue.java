@@ -11,5 +11,9 @@ public abstract class Collegue {
         this.mediator = mediator;
     }
 
+    public void change(){
+        mediator.changed(this);
+    }
+
 
 }

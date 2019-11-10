@@ -16,6 +16,6 @@ public class CPU extends Collegue {
         String[] arr = data.split(",");
         this.videoData = arr[0];
         this.soundData = arr[1];
-        getMediator().changed(this);
+        change();
     }
 }
